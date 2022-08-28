@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+   
+   margin: 1px;
+   padding-right: 3px;
+}
+
+body{
+    font-family:  'Montserrat', sans-serif;
+}
+
+.navbar{
+    padding: 2rem 20%;
+    font-size: 1.2rem;
+    
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+ 
+    font-weight: bold;
+}
+
+.navbar ul li {
+    margin-left: .8rem;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    z-index: 3;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px inset black;
+    height: auto;
+    width: auto;
+ 
+    
+}
+
+
+.navbar ul  a {
+  
+    text-decoration: none;
+}
+
+
+.hero{
+    background-image: url(background.jpg);
+    
+    width: 98vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    opacity: .9;
+
+    
+}
+
+.class{
+
+    position: absolute;
+    z-index: 3;
+    width: 98vw;
+    height: 90vh;
+
+
+}
+
+.name h2{
+    text-align: center;
+    justify-content: center;
+ 
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+  
+
+}
+
+.name{
+
+    position: relative;
+    top: 7rem;
+    font-weight: bolder;
+    color: white;
+    z-index: 1;
+    
+}
+
+
+
+#straight{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+#straight li{
+    padding: 1rem;
+    margin-left: 7rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+ 
+    border-radius: 100%;
+    text-align: center;
+    list-style: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+
+}
+#straight li:hover{
+      
+
+    
+    background-color:whitesmoke;
+    color: black;
+
+}
+
+
+
+.photo img{
+    width: 18rem;
+    height: 15rem;
+    border-radius: 50%;
+  
+    border: 2px solid #fff ;
+    
+    
+}
+
+#about span{
+   font-family: "handlee" ,cursive;
+   font-size: 1.6rem;
+   color: rgb(131, 131, 167);
+}
+
+
+.skills{
+    height: auto;
+    width: 99vw;
+    background-color: rgb(240, 233, 223);
+}
+
+#head{
+    position: relative;
+    bottom: 3rem;
+}
+
+#head img {
+   
+    height: 4rem;
+}
+ #head span{
+    font-size: 3rem;
+   color: rgb(179, 179, 219);
+   position: relative;
+   top: .5rem;
+
+}
+
+.row1 , .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row1 .main-box , .row2 .main-box{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 10rem;
+    background-color: gray;
+    margin: .5rem 1rem 1rem 3rem;
+   
+}
+
+.main-box .percent90 > p , .main-box .percent80 > p, .main-box .percent70 > p, .main-box .percent60 > p , .main-box .percent50 > p {
+   
+    position: relative;
+    top: 1rem;
+    left: .6rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-box .percent90, .main-box .percent80, .main-box .percent70 , .main-box .percent60 ,.main-box .percent50 {
+    
+    height: 3rem;
+    border-radius: 10rem;
+    position: relative;
+    right: 1rem;
+    bottom: 1px;
+    
+}
+
+
+.main-box .percent90{
+    background-color: blueviolet;
+    width: 11rem;
+}
+
+.main-box .percent80{
+    background-color: violet;
+    width: 10.5rem;
+}
+
+.main-box .percent70{
+    background-color: rgb(104, 223, 189);
+    width: 9rem;
+}
+
+.main-box .percent60{
+    background-color: rgb(179, 122, 167);
+    width: 8.7rem;
+}
+
+.main-box .percent50{
+    background-color: rgb(234, 82, 130);
+    width: 7rem;
+}
+
+.row2{
+
+    justify-content: center;
+    margin: 2rem;
+}
+
+#move{
+
+    position: relative;
+    bottom: 5rem;
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+    .navbar .navbar-toggler{
+       position: relative;
+       right: 4rem;
+       bottom: 1.5rem;
+      
+       width: 4rem;
+      
+
+    }
+
+.name h2{
+    font-size: 20pt;
+}
+
+#straight li{
+    font-size: .8rem;
+    margin-left: 3rem;
+}
+
+
+
+}
+
+.fun{
+
+    font-variant: small-caps;
+   
+    
+
+
+}
+
